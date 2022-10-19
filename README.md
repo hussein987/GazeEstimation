@@ -42,7 +42,7 @@ vector).
 
 ## Code
 
-- You can find the training results of EfficientNet [here](../GazeEstimation/source/predict_direction.ipynb).
+- You can find the training results of EfficientNet [here](./source/predict_direction.ipynb).
 
 Other scripts are still under development.
 

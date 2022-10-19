@@ -36,8 +36,7 @@ The architecture is described in the document, we have two main objectives, one 
 vector, predicting the coordinates on the output image. After that, we’re using OpenCV to get the eye pupil’s position
 and other eye’s landmarks, then connecting it to the coordi-
 nates of the gaze vector to draw the gaze vector.
-The current architecture uses EfficientNet replacing the out-
-put layers with 2 fully connected layers to match the intended
+The current architecture uses EfficientNet replacing the output layers with 2 fully connected layers to match the intended
 output size (2 in our case, the 𝑥 and 𝑦 positions of the gaze
 vector).
 
@@ -52,4 +51,4 @@ Other scripts are still under development.
 1. Embed EfficientNet into L2CS-Net, train and test it using MPIIGaze and Gaze360.
 2. Video predictions
 3. Realtime settings
-4. Implement the proposed modification L2CS-Net to enhance the performance.
+4. Implement the proposed modifications of L2CS-Net architecture to enhance the performance.

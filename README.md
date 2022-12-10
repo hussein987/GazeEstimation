@@ -3,6 +3,17 @@
 In this project, we shall create a system for eye-gaze tracking. The system uses deep learning and image recognition to predict the eye-gaze direction. The project is inspired by the following paper [L2CS-NET: FINE-GRAINED GAZE ESTIMATION IN UNCONSTRAINED ENVIRONMENTS](https://arxiv.org/pdf/2203.03339v1.pdf)
 
 
+
+
+https://user-images.githubusercontent.com/49820108/206873051-423b1781-4d11-4fc1-9212-4e885c3fd7c9.mp4
+
+
+
+
+https://user-images.githubusercontent.com/49820108/206873061-8f841511-59b1-44a2-9830-38738158c8af.mov
+
+
+
 ## Overview
 Eye tracking is becoming a very important capability across many domains, including security, psychology, computer vision, and medical diagnosis. Also, gaze is important for security applications to analyze suspicious gaze behavior. A use case in educational institutes is the automated analysis of the student’s eye gazes during an examination to help minimize malpractices.
 In this project, we're going to implement a CNN-based appearance-based deep learning solution for eye gaze tracking on images and video streams, and ultimately deploying the solution in real-time settings.\

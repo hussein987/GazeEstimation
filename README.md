@@ -32,11 +32,10 @@ repository. The following gif shows how slow a video should be for the L2C to wo
 
 To enhance the training speed and adapt the system for
 real-time settings, the idea is to replace the backbone net-
-work (pretrained ResNet 50) shown in Fig.3 by an [efficientNet](https://arxiv.org/pdf/1905.11946.pdf) to decrease the number of parameters by a factor X and
-increase the training/inference speed by a factor Y. By doing
+work (pretrained ResNet 50) by an [efficientNet](https://arxiv.org/pdf/1905.11946.pdf) to decrease the number of parameters by a factor X and increase the training/inference speed by a factor Y. By doing
 that, the prediction time will be decreased, and therefore an
 enhanced ability to provide an up-to-date frame-by-frame
-prediction will be gained. This is not the first
+prediction will be gained.
 
 
 
@@ -50,7 +49,7 @@ and lighting that make it suitable for unconstrained gaze estimation. It was col
 
 ### Dataset used to test EfficientNet (as a proof of concept)
 For now, I'm using [UnityEye](https://www.cl.cam.ac.uk/research/rainbow/projects/unityeyes/) dataset (for generating synthetic images of eye regions along with their labels i.e. the direction of where the eye is looking) to test the implementation of the efficientNet before encorporating it into the proposed architecture. This data generation method combines a novel generative 3D model of the human eye region with a real-time rendering framework. The model is based on high-resolution 3D face scans and uses real-time approximations for complex eyeball materials and structures as well as anatomically inspired procedural geometry methods for eyelid animation. The training set of UnityEyes captures a large degree of appearance variation, which enables us to test against challenging images.
-![Alt text](./images/unityeye.png?raw=true "synthetic data using generative 3D eye region model" )
+
 
 
 ## Results

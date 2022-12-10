@@ -12,6 +12,7 @@ In this project, we shall create a system for eye-gaze tracking. The system uses
 Eye tracking is becoming a very important capability across many domains, including security, psychology, computer vision, and medical diagnosis. Also, gaze is important for security applications to analyze suspicious gaze behavior. A use case in educational institutes is the automated analysis of the student’s eye gazes during an examination to help minimize malpractices.
 In this project, we're going to implement a CNN-based appearance-based deep learning solution for eye gaze tracking on images and video streams, and ultimately deploying the solution in real-time settings.
 
+## Methodology
 The main novelty of [L2CS-NET](https://arxiv.org/pdf/2203.03339v1.pdf) compared to other models is summarized in two main ideas:
 * Predict each gaze angle (yaw and pitch) separately using two fully-connected layers instead of one. These two fully-connected layers share the same convolution layers (ImageNet-pretrained ResNet-50) in the backbone.
 

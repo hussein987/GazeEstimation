@@ -82,7 +82,7 @@ pip install git+https://github.com/elliottzheng/face-detection.git@master
 *  Run:
 ```
  python demo.py \
- --snapshot models/L2CSNet_gaze360.pkl \
+ --snapshot models/L2CSNet_MPIIGAZE.pkl \
  --gpu 0 \
  --cam 0 \
 ```

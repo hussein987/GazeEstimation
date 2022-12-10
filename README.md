@@ -12,7 +12,7 @@ Accordingly, I'm planning to encorporate the following contributions to the L2CS
 However, before combining the channels into the fully connected layer FC1, we need to split the output of the backbone convolutional block into two fully connected layers, one for each gaze angle (yew and pitch), as in L2CS-Net, and apply the linear combination of loss functions.
 
 2. Enhance the training speed and adapt the system for real-time settings, the idea behind that is to replace the backbone network (pretrained ResNet 50) by an [efficientNet](https://arxiv.org/pdf/1905.11946.pdf) to decrease the number of parameters by a factor X and increase the training/inference speed by a factor Y. We can see how L2CS-Net performs in video settings in the GIF below, and how the video needs to be slowed down a bit for it to provide an up-to-date frame-by-frame prediction.
-![Alt text](./images/gaze.gif?raw=true)
+![Alt text](./images/gaze-estimation.mp4?raw=true)
 
 ## Dataset
 
